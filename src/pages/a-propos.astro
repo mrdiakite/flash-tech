@@ -1,0 +1,37 @@
+---
+import MainLayout from "../layouts/MainLayout.astro";
+---
+<MainLayout title="À propos | Flash-Tech" description="Qui sommes-nous et quelles sont nos valeurs chez Flash-Tech ?">
+
+  <!-- Hero Section -->
+  <section class="relative bg-gradient-to-r from-indigo-600 to-blue-600 text-white h-[60vh] flex flex-col items-center justify-center text-center px-6">
+    <h1 class="text-4xl md:text-5xl font-bold mb-4 fade-in">À propos de Flash-Tech</h1>
+    <p class="text-lg md:text-xl max-w-3xl fade-in">Une entreprise spécialisée dans le développement, la cybersécurité et l’audit des systèmes d’information.</p>
+  </section>
+
+  <!-- About Details -->
+  <section class="py-20 bg-gray-50 text-gray-800">
+    <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+      
+      <div class="fade-in">
+        <img src="/images/hero.jpg" alt="Équipe Flash-Tech" class="rounded-2xl shadow-lg"/>
+      </div>
+
+      <div class="fade-in">
+        <h2 class="text-3xl font-bold mb-6">Notre mission</h2>
+        <p class="mb-4">Chez Flash-Tech, nous aidons les entreprises à développer des solutions digitales performantes et sécurisées, tout en protégeant leurs systèmes contre les menaces informatiques.</p>
+        <p class="mb-4">Notre équipe d’experts combine compétences en développement, sécurité et audit pour offrir des solutions fiables et adaptées aux besoins de chaque client.</p>
+        <p>Nous valorisons trois principes clés : <strong>innovation, sécurité et excellence</strong>.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="py-20 bg-indigo-700 text-center text-white">
+    <h2 class="text-3xl md:text-4xl font-bold mb-6">Rejoignez-nous ou collaborez avec Flash-Tech</h2>
+    <p class="text-lg md:text-xl mb-6 max-w-2xl mx-auto">Contactez notre équipe pour discuter de vos besoins ou rejoindre notre aventure digitale.</p>
+    <a href="/contact" class="px-8 py-3 bg-white text-indigo-700 font-semibold rounded-xl shadow-lg hover:scale-105 transition">Nous contacter</a>
+  </section>
+
+</MainLayout>
